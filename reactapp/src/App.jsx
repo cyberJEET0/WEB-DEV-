@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+import Sample from './Component/Sample'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -30,6 +31,8 @@ function App() {
       </section>
 
       <div className="ticks"></div>
+
+      <Sample />
 
       <section id="next-steps">
         <div id="docs">
